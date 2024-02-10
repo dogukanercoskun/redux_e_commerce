@@ -1,0 +1,46 @@
+.HeaderMain{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:#c5d7e5;
+    padding: 1rem 1.5rem 1rem;
+    
+ 
+    
+    .h1{
+        font-size: 40px;
+        font-weight: 600;
+        color:rgb(155, 113, 113);
+    }
+
+    .leftItem{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+
+        select{
+            border-radius: 0.5rem;
+            width:  6rem;
+            height: 2rem;
+            
+        }
+        input{
+            border-radius: 0.5rem;
+            height: 2rem;
+            padding: 0.5rem;
+        }
+
+        .icon{
+            font-size: 2rem;
+            color:rgb(155, 113, 113);
+            cursor: pointer;
+            margin-bottom: 0.5rem;
+            
+           
+        }
+    }
+    
+   
+
+}
